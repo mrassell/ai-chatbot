@@ -15,7 +15,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
 
   const sendMessage = async () => {
-    if (!message.trim() || isLoading || !apiKey.trim()) return; // Check if API key is set
+    if (!message.trim() || isLoading || !apiKey.trim()) return; 
     setIsLoading(true);
 
     setMessage('');
