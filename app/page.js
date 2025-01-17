@@ -30,7 +30,7 @@ export default function Home() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-api-key': apiKey, // Send API key in the request header
+          'x-api-key': apiKey, 
         },
         body: JSON.stringify([...messages, { role: 'user', content: message }]),
       });
