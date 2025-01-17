@@ -4,7 +4,7 @@ import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
 
 export default function Home() {
-  const [apiKey, setApiKey] = useState(''); // State for the API key
+  const [apiKey, setApiKey] = useState('');
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
